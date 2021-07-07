@@ -11,12 +11,10 @@
 // stap 3 i is kleiner dan 3
 // console.log
 //
-const celebrations = 'Hoera!';
 
 for (let i = 0; i < 3; i++) {
-    console.log(celebrations)
-}
-;
+    console.log('Hoera!')
+};
 
 // ==========================================
 // Opdracht 2. Maak een for-loop die 4 keer het woord "loop..." logt, en bij de vijfde loop het woord "klaar!"
@@ -28,19 +26,15 @@ for (let i = 0; i < 3; i++) {
 // klaar!
 // ==========================================
 
-// stap 1 loop en klaar declareren
-// stap 2 for loop maken
-// stap 3 for loop met 5 items
-// stap 4 alles kleiner dan 4 is loop en al het andere is klaar (dus groter dan 5)
-
-const rounds = "loop...";
-const ready = "klaar!";
+// stap 1 for loop maken
+// stap 2 for loop met 5 items
+// stap 3 alles kleiner dan 4 is loop en al het andere is klaar (dus groter dan 5)
 
 for (let i = 0; i < 5; i++) {
-    if (i < 4) {
-        console.log(rounds);
+    if (i === 4) {
+        console.log('Klaar!');
     } else {
-        console.log(ready);
+        console.log('Loop...');
     }
 }
 // ==========================================
@@ -58,14 +52,6 @@ for (let i = 0; i < 5; i++) {
 // stap 3 twee if statements
 
 // Oefening:
-//
-let fir = 15;
-
-if (15 % 2 === 0) {
-    console.log('bijna')
-} else (console.log('niet goed'))
-
-const numbers = 15;
 
 for (let i = 0; i < 16; i++) {
     if (i % 2 === 0) {
